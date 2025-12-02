@@ -40,6 +40,12 @@ def run(cmd):
     subprocess.check_call([str(c) for c in cmd])
 
 
+def get_python_cmd():
+    """Get the current Python executable to ensure scripts run in the same environment."""
+    import sys
+    return sys.executable
+
+
 def main():
     parser = argparse.ArgumentParser(
         description=(
@@ -88,7 +94,7 @@ def main():
     else:
         print(f"[INFO] Creating vertical-only walls: {vertical_ply}")
         keep_cmd = [
-            "python3",
+            get_python_cmd(),
             str(KEEP_VERTICAL_SCRIPT),
             str(args.input_ply),
             "--out",
@@ -111,7 +117,7 @@ def main():
     # -----------------------------------------------------------------
     print(f"[INFO] Running RANSAC wall segmentation on: {vertical_ply}")
     ransac_cmd = [
-        "python3",
+        get_python_cmd(),
         str(RANSAC_SCRIPT),
         str(vertical_ply),
         str(args.out_dir),

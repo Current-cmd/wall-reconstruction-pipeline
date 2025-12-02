@@ -1,66 +1,182 @@
-# Corridor Incremental Pipeline
+# Wall Reconstruction Pipeline
 
-This repository contains scripts for an incremental corridor processing pipeline that consumes pointcloud batch PLY files, runs RANSAC-based wall segmentation, generates bounding boxes, merges results, and exports IFCs.
+Incremental pipeline for wall reconstruction from point clouds with **batch processing** and **real-time file monitoring**.
 
-**Default layout**
-- Pointcloud batches: `<ROOT>/4th_Floor_whole_corridor/pointcloud_batch_*.ply`
-- Result scripts: `<ROOT>/result1_real/*.py` (e.g. `vertical_ransac.py`)
-- Outputs: `<ROOT>/output_ani/`
+## Features
 
-By default the code expects the root directory to be: `~/ptv3/sonata_pipeline`.
+- 🔄 **Two Modes**: Batch (all files at once) or File Watcher (live monitoring)
+- 📁 **Multi-Format**: PLY, LAS, LAZ with auto-conversion
+- 🏗️ **RANSAC Segmentation**: Robust wall detection
+- 📐 **IFC Export**: Industry-standard IFC4 format
+- 📊 **Auto Visualization**: 2D views and statistics
+- 🐳 **Docker Support**: Run in isolated containers
 
-**Make the root configurable**
-`run_corridor_incremental.py` accepts a root path via either an environment variable or a CLI argument:
+## Quick Start
 
-- Environment variable: `POINTCLOUD_ROOT`
-- CLI argument: `--root`
-
-The script checks `--root` first (if provided), otherwise it falls back to `POINTCLOUD_ROOT`, and finally to the default `~/ptv3/sonata_pipeline`.
-
-Examples:
-
-- Using environment variable (zsh):
+### Option 1: Docker (Recommended)
 
 ```bash
-export POINTCLOUD_ROOT="$HOME/ptv3/sonata_pipeline"
-python3 run_corridor_incremental.py
+# Build and run with one command
+./docker-run.sh --build --batch-mode ./raw_pointCloud/Building_2_2nd_Floor
+
+# Or use Docker Compose
+docker-compose up
 ```
 
-- Using CLI argument:
+See [DOCKER.md](DOCKER.md) for detailed Docker instructions.
+
+### Option 2: Local Installation
 
 ```bash
-python3 run_corridor_incremental.py --root /path/to/your/project_root
+conda activate open3d_project_env
+pip install open3d laspy matplotlib ifcopenshell
 ```
 
-**Dependencies**
+### Batch Mode (Process All Files)
+```bash
+python run_corridor_incremental.py --root . --batches /path/to/scans
+```
+
+### File Watcher Mode (Live Monitoring)
+```bash
+python run_corridor_incremental.py --root . --watch /path/to/scans --interval 5
+# Press Ctrl+C to stop and finalize
+```
+
+## Usage
+
+### Command-Line Arguments
+
+| Argument | Description | Required | Default |
+|----------|-------------|----------|---------|
+| `--root` | Root folder with scripts | **Yes** | - |
+| `--batches` | Directory with point clouds (batch mode) | Yes* | - |
+| `--watch` | Directory to monitor (watcher mode) | Yes* | - |
+| `--interval` | Poll interval in seconds (watcher only) | No | 5.0 |
+
+*One of `--batches` or `--watch` is required
+
+**Note**: `--root` should typically be set to `.` (current directory) if scripts are in the same folder.
+
+### Mode Comparison
+
+| Feature | Batch Mode | File Watcher Mode |
+|---------|-----------|-------------------|
+| **Processing** | All files at once | As files arrive |
+| **Use Case** | Complete datasets | Live scanning |
+| **Control** | Runs to completion | Stop with Ctrl+C |
+| **Best For** | Post-processing | Real-time monitoring |
+
+**Batch Mode** - Use when all files are ready:
+```bash
+python run_corridor_incremental.py --root . --batches /data/Building_Floor_2
+```
+
+**File Watcher Mode** - Use for live scanning:
+```bash
+python run_corridor_incremental.py --root . --watch /data/live_scans --interval 3
+```
+
+### Examples
+
+```bash
+# Process a building floor (scripts in current directory)
+python run_corridor_incremental.py --root . --batches /data/Building_2_2nd_Floor
+
+# Monitor live scanning (check every 3 seconds)
+python run_corridor_incremental.py --root . --watch /data/live --interval 3
+
+# Custom root directory (scripts elsewhere)
+python run_corridor_incremental.py --root /custom/scripts --batches /data/scans
+```
+
+## Output Structure
+
+```
+output_[folder_name]/
+├── batch_01_scan_001/
+│   ├── walls/                        # Wall segments
+│   ├── wall_bboxes.csv              # Bounding boxes
+│   ├── walls_cumulative.ifc         # IFC up to this batch
+│   └── vertical_walls_cumulative.ply
+├── batch_02_scan_002/
+│   └── ... (same structure)
+├── walls_final.ifc                   # Final IFC with all walls
+└── visualizations/
+    ├── final_top_view.png
+    ├── final_side_view.png
+    ├── final_front_view.png
+    └── point_cloud_stats.txt
+```
+
+## Processing Pipeline
+
+Each batch goes through:
+1. **Vertical Filtering** - Extract vertical wall points
+2. **RANSAC Segmentation** - Detect wall planes
+3. **Bounding Boxes** - Generate wall geometry
+4. **Cumulative Merge** - Combine with previous batches
+5. **IFC Generation** - Create/update IFC model
+6. **Visualization** - Generate views (final batch only)
+
+## File Format Support
+
+- **PLY**: Point cloud with XYZ and optional RGB
+- **LAS/LAZ**: ASPRS format (auto-converted to PLY)
+
+Files are sorted numerically by first number in filename:
+- `clip_001.ply` → 1
+- `scan_042.ply` → 42
+
+## Dependencies
+
+**Required:**
 - Python 3.8+
-- numpy
 - open3d
+- numpy
+- ifcopenshell
 
-You can install required Python packages with pip:
+**Optional:**
+- laspy (for LAS/LAZ)
+- matplotlib (for visualization)
 
+**Docker:**
+- Docker Engine 20.10+
+- Docker Compose (optional)
+
+## Configuration
+
+**Note**: The `--root` argument is required and should point to the directory containing the pipeline scripts (`vertical_ransac.py`, `make_wall_bboxes_from_segments.py`, etc.). Use `--root .` if running from the script directory.
+
+~~### Environment Variable~~
+~~```bash~~
+~~export POINTCLOUD_ROOT="/path/to/root"~~
+~~python run_corridor_incremental.py --batches /data/scans~~
+~~```~~
+
+~~### Priority~~
+~~`--root` argument > `POINTCLOUD_ROOT` env var > default path~~
+
+## Troubleshooting
+
+**No files found**
+- Check directory path
+- Verify file extensions (.ply, .las, .laz)
+
+**LAS conversion fails**
 ```bash
-python3 -m pip install --upgrade pip
-python3 -m pip install numpy open3d
+pip install laspy
 ```
 
-**What `run_corridor_incremental.py` does**
-- Iterates over `pointcloud_batch_*.ply` files in the batches folder
-- Runs `vertical_ransac.py` on each batch to detect wall segments
-- Runs `make_wall_bboxes_from_segments.py` to generate bounding boxes per batch
-- Merges bounding boxes using `merge_all_bboxes.py`
-- Exports IFC with `csv_to_ifc_from_bboxes.py`
-- Produces cumulative pointclouds and a folder with RANSAC segment PLY files
+**Visualization missing**
+```bash
+pip install matplotlib
+```
 
-**Troubleshooting**
-- If you see `No batches found in ...` ensure the `--root`/`POINTCLOUD_ROOT` points to a folder containing `4th_Floor_whole_corridor` with `pointcloud_batch_*.ply` files.
-- If `open3d` import fails, install it with `pip install open3d` or follow your platform-specific installation instructions.
+**File watcher not detecting**
+- Increase `--interval` (e.g., `--interval 10`)
+- Ensure files are fully written before detection
 
-**Notes**
-- The code will call the helper scripts in `result1_real/` relative to the chosen root. Keep those scripts in place or update the `RESULT_DIR` in `run_corridor_incremental.py`.
-
-If you want, I can also:
-- Add a small check at runtime to validate the presence of the helper scripts and give clearer error messages.
-- Update other scripts to accept the same `--root` pattern for consistency.
-
-Happy to make further changes or run a quick dry-run if you provide a small sample of your pointclouds.
+**Wrong processing order**
+- Files sorted by first number in filename
+- Use consistent naming: `scan_001.ply`, `scan_002.ply`

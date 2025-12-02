@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  wall-reconstruction:
+    build: .
+    image: wall-reconstruction:latest
+    container_name: wall-reconstruction
+    volumes:
+      # Mount input data directory
+      - ./raw_pointCloud:/app/input:ro
+      # Mount output directory
+      - ./docker_output:/app/output
+      # Mount scripts directory with write permissions
+      - .:/app/work
+    working_dir: /app/work
+    environment:
+      - MPLBACKEND=Agg
+    command: >
+      /bin/bash -c "
+      source activate open3d_project_env &&
+      python run_corridor_incremental.py 
+      --root /app/work 
+      --batches /app/input/Building_2_2nd_Floor &&
+      if ls output_* 1> /dev/null 2>&1; then
+        cp -r output_* /app/output/
+      fi
+      "
+    # Optional: limit resources
+    deploy:
+      resources:
+        limits:
+          cpus: '4'
+          memory: 8G
+        reservations:
+          cpus: '2'
+          memory: 4G

@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+
+# Output directories
+output_*/
+docker_output/
+Tested_output/
+visualizations/
+
+# Data directories
+raw_pointCloud/
+clips/
+Building_2_2nd_Floor/
+output_ani/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
