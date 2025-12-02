@@ -1,0 +1,1347 @@
+Final Point Cloud Statistics
+================================================================================
+
+Total Points: 5,397,586
+Point Cloud File: vertical_walls_cumulative.ply
+Total Walls Detected: 221
+
+Bounding Box:
+  X: [-35.081, 13.165] m (range: 48.247 m)
+  Y: [-33.437, 8.771] m (range: 42.207 m)
+  Z: [-2.645, 8.616] m (range: 11.261 m)
+
+Center Point:
+  X: -2.543 m
+  Y: -1.894 m
+  Z: 1.732 m
+
+================================================================================
+Wall Bounding Boxes Summary
+================================================================================
+
+Wall 1:
+  Center: (9.310, -1.589, 3.659) m
+  Dimensions (X×Y×Z): 0.510 × 17.727 × 9.468 m
+  Points: 89,881
+  Source: wall_001.ply
+
+Wall 2:
+  Center: (-8.712, 7.348, 2.940) m
+  Dimensions (X×Y×Z): 3.022 × 0.227 × 2.443 m
+  Points: 2,709
+  Source: wall_002.ply
+
+Wall 3:
+  Center: (1.713, 7.264, 1.759) m
+  Dimensions (X×Y×Z): 15.717 × 0.805 × 5.606 m
+  Points: 64,718
+  Source: wall_003.ply
+
+Wall 4:
+  Center: (-6.383, 2.690, 2.772) m
+  Dimensions (X×Y×Z): 0.872 × 0.158 × 3.142 m
+  Points: 2,146
+  Source: wall_004.ply
+
+Wall 5:
+  Center: (0.501, 2.647, 2.153) m
+  Dimensions (X×Y×Z): 6.562 × 0.207 × 4.738 m
+  Points: 12,957
+  Source: wall_005.ply
+
+Wall 6:
+  Center: (5.170, 2.600, 2.050) m
+  Dimensions (X×Y×Z): 2.136 × 0.164 × 4.859 m
+  Points: 4,717
+  Source: wall_006.ply
+
+Wall 7:
+  Center: (-0.341, -1.083, 2.075) m
+  Dimensions (X×Y×Z): 4.950 × 0.647 × 4.798 m
+  Points: 27,239
+  Source: wall_007.ply
+
+Wall 8:
+  Center: (-5.026, -1.046, 2.634) m
+  Dimensions (X×Y×Z): 3.597 × 0.359 × 3.282 m
+  Points: 9,008
+  Source: wall_008.ply
+
+Wall 9:
+  Center: (5.688, -1.335, 1.810) m
+  Dimensions (X×Y×Z): 1.082 × 0.897 × 4.707 m
+  Points: 4,841
+  Source: wall_009.ply
+
+Wall 10:
+  Center: (-9.363, -1.071, 3.364) m
+  Dimensions (X×Y×Z): 1.774 × 0.112 × 1.369 m
+  Points: 313
+  Source: wall_010.ply
+
+Wall 11:
+  Center: (1.688, -2.346, 1.993) m
+  Dimensions (X×Y×Z): 0.824 × 13.810 × 5.011 m
+  Points: 47,331
+  Source: wall_011.ply
+
+Wall 12:
+  Center: (2.089, 7.081, 2.078) m
+  Dimensions (X×Y×Z): 0.083 × 0.395 × 4.405 m
+  Points: 425
+  Source: wall_012.ply
+
+Wall 13:
+  Center: (-2.035, -0.114, 2.017) m
+  Dimensions (X×Y×Z): 0.199 × 10.373 × 5.061 m
+  Points: 14,367
+  Source: wall_013.ply
+
+Wall 14:
+  Center: (-2.076, 6.946, 2.229) m
+  Dimensions (X×Y×Z): 0.076 × 0.856 × 4.373 m
+  Points: 807
+  Source: wall_014.ply
+
+Wall 15:
+  Center: (5.334, -9.157, 1.471) m
+  Dimensions (X×Y×Z): 8.160 × 0.429 × 5.378 m
+  Points: 29,042
+  Source: wall_015.ply
+
+Wall 16:
+  Center: (5.359, -5.895, 1.696) m
+  Dimensions (X×Y×Z): 0.224 × 1.457 × 4.714 m
+  Points: 3,998
+  Source: wall_016.ply
+
+Wall 17:
+  Center: (5.760, -0.963, 1.972) m
+  Dimensions (X×Y×Z): 0.982 × 8.825 × 5.044 m
+  Points: 25,387
+  Source: wall_017.ply
+
+Wall 18:
+  Center: (5.303, -9.165, 1.614) m
+  Dimensions (X×Y×Z): 0.184 × 0.390 × 4.678 m
+  Points: 249
+  Source: wall_018.ply
+
+Wall 19:
+  Center: (5.415, 5.650, 2.165) m
+  Dimensions (X×Y×Z): 0.191 × 3.393 × 4.869 m
+  Points: 787
+  Source: wall_019.ply
+
+Wall 20:
+  Center: (-0.944, -5.190, 1.847) m
+  Dimensions (X×Y×Z): 6.430 × 0.249 × 4.391 m
+  Points: 16,192
+  Source: wall_020.ply
+
+Wall 21:
+  Center: (7.205, -5.217, 2.857) m
+  Dimensions (X×Y×Z): 4.483 × 0.343 × 7.275 m
+  Points: 5,606
+  Source: wall_021.ply
+
+Wall 22:
+  Center: (1.375, 7.087, 2.004) m
+  Dimensions (X×Y×Z): 0.065 × 0.473 × 4.540 m
+  Points: 621
+  Source: wall_022.ply
+
+Wall 23:
+  Center: (9.293, -1.583, 3.787) m
+  Dimensions (X×Y×Z): 0.483 × 17.803 × 9.561 m
+  Points: 98,945
+  Source: wall_001.ply
+
+Wall 24:
+  Center: (2.027, 7.116, 1.640) m
+  Dimensions (X×Y×Z): 0.971 × 0.818 × 5.634 m
+  Points: 1,625
+  Source: wall_002.ply
+
+Wall 25:
+  Center: (1.798, -5.086, 2.039) m
+  Dimensions (X×Y×Z): 1.120 × 8.497 × 4.820 m
+  Points: 50,461
+  Source: wall_003.ply
+
+Wall 26:
+  Center: (-2.005, 3.100, 1.934) m
+  Dimensions (X×Y×Z): 0.201 × 0.968 × 4.118 m
+  Points: 1,210
+  Source: wall_004.ply
+
+Wall 27:
+  Center: (-2.043, -3.011, 0.903) m
+  Dimensions (X×Y×Z): 0.154 × 4.773 × 3.318 m
+  Points: 9,502
+  Source: wall_005.ply
+
+Wall 28:
+  Center: (-2.004, 7.182, 2.054) m
+  Dimensions (X×Y×Z): 0.216 × 0.471 × 4.366 m
+  Points: 408
+  Source: wall_006.ply
+
+Wall 29:
+  Center: (5.607, -9.072, 1.927) m
+  Dimensions (X×Y×Z): 7.750 × 0.270 × 4.604 m
+  Points: 27,289
+  Source: wall_007.ply
+
+Wall 30:
+  Center: (1.776, 2.931, 1.659) m
+  Dimensions (X×Y×Z): 0.816 × 1.101 × 4.864 m
+  Points: 3,597
+  Source: wall_008.ply
+
+Wall 31:
+  Center: (-4.428, 7.446, 1.612) m
+  Dimensions (X×Y×Z): 3.485 × 0.470 × 5.210 m
+  Points: 2,770
+  Source: wall_009.ply
+
+Wall 32:
+  Center: (-1.084, 7.401, 1.669) m
+  Dimensions (X×Y×Z): 2.128 × 0.443 × 5.292 m
+  Points: 2,664
+  Source: wall_010.ply
+
+Wall 33:
+  Center: (4.963, 7.342, 1.521) m
+  Dimensions (X×Y×Z): 8.898 × 0.509 × 5.845 m
+  Points: 17,306
+  Source: wall_011.ply
+
+Wall 34:
+  Center: (1.773, -5.226, 3.000) m
+  Dimensions (X×Y×Z): 15.162 × 0.343 × 6.634 m
+  Points: 15,062
+  Source: wall_012.ply
+
+Wall 35:
+  Center: (5.714, -0.915, 1.904) m
+  Dimensions (X×Y×Z): 0.987 × 11.377 × 5.506 m
+  Points: 29,875
+  Source: wall_013.ply
+
+Wall 36:
+  Center: (5.770, 6.983, 1.700) m
+  Dimensions (X×Y×Z): 0.557 × 0.590 × 5.389 m
+  Points: 900
+  Source: wall_014.ply
+
+Wall 37:
+  Center: (5.227, -9.022, 2.094) m
+  Dimensions (X×Y×Z): 0.142 × 0.560 × 3.993 m
+  Points: 245
+  Source: wall_015.ply
+
+Wall 38:
+  Center: (-2.389, 2.729, 1.985) m
+  Dimensions (X×Y×Z): 0.920 × 0.194 × 4.446 m
+  Points: 1,028
+  Source: wall_016.ply
+
+Wall 39:
+  Center: (-6.380, 2.810, 1.837) m
+  Dimensions (X×Y×Z): 0.795 × 0.188 × 4.055 m
+  Points: 243
+  Source: wall_017.ply
+
+Wall 40:
+  Center: (5.710, 2.595, 1.658) m
+  Dimensions (X×Y×Z): 1.392 × 0.233 × 5.369 m
+  Points: 2,611
+  Source: wall_018.ply
+
+Wall 41:
+  Center: (1.608, 2.663, 1.729) m
+  Dimensions (X×Y×Z): 1.543 × 0.225 × 5.335 m
+  Points: 3,673
+  Source: wall_019.ply
+
+Wall 42:
+  Center: (-0.143, -1.164, 3.085) m
+  Dimensions (X×Y×Z): 2.293 × 0.202 × 2.067 m
+  Points: 1,035
+  Source: wall_020.ply
+
+Wall 43:
+  Center: (-2.115, -0.968, 2.440) m
+  Dimensions (X×Y×Z): 0.521 × 0.174 × 3.264 m
+  Points: 201
+  Source: wall_021.ply
+
+Wall 44:
+  Center: (2.072, -1.344, 1.847) m
+  Dimensions (X×Y×Z): 0.396 × 0.234 × 4.411 m
+  Points: 359
+  Source: wall_022.ply
+
+Wall 45:
+  Center: (5.466, -1.688, 2.100) m
+  Dimensions (X×Y×Z): 1.777 × 0.269 × 4.759 m
+  Points: 1,732
+  Source: wall_023.ply
+
+Wall 46:
+  Center: (-3.496, 7.298, 1.707) m
+  Dimensions (X×Y×Z): 22.925 × 0.906 × 5.571 m
+  Points: 82,222
+  Source: wall_001.ply
+
+Wall 47:
+  Center: (-2.439, -1.212, 1.700) m
+  Dimensions (X×Y×Z): 17.136 × 0.943 × 5.784 m
+  Points: 66,578
+  Source: wall_002.ply
+
+Wall 48:
+  Center: (-13.203, -1.084, 1.325) m
+  Dimensions (X×Y×Z): 3.564 × 0.801 × 5.721 m
+  Points: 4,397
+  Source: wall_003.ply
+
+Wall 49:
+  Center: (-18.330, -0.877, 1.239) m
+  Dimensions (X×Y×Z): 0.463 × 0.197 × 6.014 m
+  Points: 732
+  Source: wall_004.ply
+
+Wall 50:
+  Center: (-22.393, -0.832, 0.917) m
+  Dimensions (X×Y×Z): 0.299 × 0.165 × 5.384 m
+  Points: 455
+  Source: wall_005.ply
+
+Wall 51:
+  Center: (-5.603, -4.957, 1.722) m
+  Dimensions (X×Y×Z): 15.903 × 0.637 × 4.583 m
+  Points: 32,443
+  Source: wall_006.ply
+
+Wall 52:
+  Center: (7.270, -5.210, 3.298) m
+  Dimensions (X×Y×Z): 4.250 × 0.208 × 4.280 m
+  Points: 1,417
+  Source: wall_007.ply
+
+Wall 53:
+  Center: (-14.496, 3.044, 1.369) m
+  Dimensions (X×Y×Z): 0.936 × 0.663 × 5.939 m
+  Points: 2,316
+  Source: wall_008.ply
+
+Wall 54:
+  Center: (-18.552, 3.088, 1.104) m
+  Dimensions (X×Y×Z): 0.798 × 0.640 × 6.247 m
+  Points: 892
+  Source: wall_009.ply
+
+Wall 55:
+  Center: (-0.377, 2.895, 2.008) m
+  Dimensions (X×Y×Z): 13.200 × 0.815 × 5.221 m
+  Points: 27,625
+  Source: wall_010.ply
+
+Wall 56:
+  Center: (-22.390, 2.982, 0.754) m
+  Dimensions (X×Y×Z): 0.252 × 0.238 × 5.269 m
+  Points: 294
+  Source: wall_011.ply
+
+Wall 57:
+  Center: (-10.428, 3.005, 1.535) m
+  Dimensions (X×Y×Z): 1.084 × 0.686 × 5.566 m
+  Points: 4,335
+  Source: wall_012.ply
+
+Wall 58:
+  Center: (-6.055, 3.738, 1.929) m
+  Dimensions (X×Y×Z): 0.114 × 2.495 × 5.219 m
+  Points: 2,749
+  Source: wall_013.ply
+
+Wall 59:
+  Center: (-6.129, -2.609, 0.798) m
+  Dimensions (X×Y×Z): 0.115 × 4.342 × 3.376 m
+  Points: 1,889
+  Source: wall_014.ply
+
+Wall 60:
+  Center: (-8.608, -4.628, -0.068) m
+  Dimensions (X×Y×Z): 1.491 × 0.077 × 0.653 m
+  Points: 262
+  Source: wall_015.ply
+
+Wall 61:
+  Center: (-14.790, -5.036, 1.062) m
+  Dimensions (X×Y×Z): 21.185 × 0.263 × 2.090 m
+  Points: 52,658
+  Source: wall_001.ply
+
+Wall 62:
+  Center: (-24.799, 7.494, 1.485) m
+  Dimensions (X×Y×Z): 3.424 × 0.167 × 5.152 m
+  Points: 5,191
+  Source: wall_002.ply
+
+Wall 63:
+  Center: (-20.696, 7.453, 1.525) m
+  Dimensions (X×Y×Z): 3.611 × 0.164 × 5.130 m
+  Points: 10,537
+  Source: wall_003.ply
+
+Wall 64:
+  Center: (-16.625, 7.408, 1.684) m
+  Dimensions (X×Y×Z): 3.588 × 0.168 × 5.034 m
+  Points: 10,849
+  Source: wall_004.ply
+
+Wall 65:
+  Center: (-12.552, 7.369, 1.700) m
+  Dimensions (X×Y×Z): 3.595 × 0.165 × 5.013 m
+  Points: 12,217
+  Source: wall_005.ply
+
+Wall 66:
+  Center: (-8.461, 7.324, 1.728) m
+  Dimensions (X×Y×Z): 3.610 × 0.159 × 4.961 m
+  Points: 12,394
+  Source: wall_006.ply
+
+Wall 67:
+  Center: (-4.370, 7.274, 2.171) m
+  Dimensions (X×Y×Z): 3.490 × 0.133 × 4.081 m
+  Points: 3,898
+  Source: wall_007.ply
+
+Wall 68:
+  Center: (-0.227, 7.223, 2.986) m
+  Dimensions (X×Y×Z): 3.305 × 0.111 × 2.390 m
+  Points: 952
+  Source: wall_008.ply
+
+Wall 69:
+  Center: (-30.578, -0.799, 1.127) m
+  Dimensions (X×Y×Z): 0.286 × 0.329 × 5.460 m
+  Points: 920
+  Source: wall_009.ply
+
+Wall 70:
+  Center: (-14.588, -0.948, 1.519) m
+  Dimensions (X×Y×Z): 25.016 × 0.537 × 5.731 m
+  Points: 78,445
+  Source: wall_010.ply
+
+Wall 71:
+  Center: (-0.377, -1.203, 3.417) m
+  Dimensions (X×Y×Z): 2.037 × 0.097 × 1.508 m
+  Points: 611
+  Source: wall_011.ply
+
+Wall 72:
+  Center: (-22.694, 2.902, 1.328) m
+  Dimensions (X×Y×Z): 0.862 × 0.111 × 5.385 m
+  Points: 4,378
+  Source: wall_012.ply
+
+Wall 73:
+  Center: (-26.725, 2.955, 1.566) m
+  Dimensions (X×Y×Z): 0.882 × 0.103 × 5.107 m
+  Points: 1,713
+  Source: wall_013.ply
+
+Wall 74:
+  Center: (-12.597, 2.771, 1.653) m
+  Dimensions (X×Y×Z): 13.131 × 0.264 × 5.571 m
+  Points: 21,056
+  Source: wall_014.ply
+
+Wall 75:
+  Center: (-34.525, 3.056, 1.285) m
+  Dimensions (X×Y×Z): 0.261 × 0.098 × 4.755 m
+  Points: 248
+  Source: wall_015.ply
+
+Wall 76:
+  Center: (-30.772, 3.010, 1.073) m
+  Dimensions (X×Y×Z): 0.691 × 0.104 × 5.771 m
+  Points: 408
+  Source: wall_016.ply
+
+Wall 77:
+  Center: (-2.394, 2.631, 3.208) m
+  Dimensions (X×Y×Z): 0.851 × 0.076 × 1.757 m
+  Points: 274
+  Source: wall_017.ply
+
+Wall 78:
+  Center: (-24.415, 7.523, 1.583) m
+  Dimensions (X×Y×Z): 20.633 × 1.013 × 5.787 m
+  Points: 93,012
+  Source: wall_001.ply
+
+Wall 79:
+  Center: (-11.238, 7.398, 1.572) m
+  Dimensions (X×Y×Z): 0.921 × 0.210 × 5.041 m
+  Points: 468
+  Source: wall_002.ply
+
+Wall 80:
+  Center: (-34.504, 1.220, 2.006) m
+  Dimensions (X×Y×Z): 0.320 × 13.208 × 7.360 m
+  Points: 35,348
+  Source: wall_003.ply
+
+Wall 81:
+  Center: (-22.784, -0.798, 1.662) m
+  Dimensions (X×Y×Z): 17.229 × 0.635 × 5.460 m
+  Points: 53,157
+  Source: wall_004.ply
+
+Wall 82:
+  Center: (-22.125, -4.944, 1.856) m
+  Dimensions (X×Y×Z): 10.872 × 0.267 × 3.614 m
+  Points: 16,971
+  Source: wall_005.ply
+
+Wall 83:
+  Center: (-32.508, -4.861, 1.972) m
+  Dimensions (X×Y×Z): 4.345 × 0.230 × 6.495 m
+  Points: 2,639
+  Source: wall_006.ply
+
+Wall 84:
+  Center: (-23.515, 3.214, 1.892) m
+  Dimensions (X×Y×Z): 2.668 × 0.886 × 4.844 m
+  Points: 14,642
+  Source: wall_007.ply
+
+Wall 85:
+  Center: (-18.689, 3.151, 1.647) m
+  Dimensions (X×Y×Z): 1.030 × 0.841 × 5.216 m
+  Points: 6,087
+  Source: wall_008.ply
+
+Wall 86:
+  Center: (-14.624, 3.192, 1.592) m
+  Dimensions (X×Y×Z): 0.904 × 0.649 × 5.349 m
+  Points: 1,959
+  Source: wall_009.ply
+
+Wall 87:
+  Center: (-28.311, 3.270, 1.701) m
+  Dimensions (X×Y×Z): 7.637 × 1.141 × 5.398 m
+  Points: 20,194
+  Source: wall_010.ply
+
+Wall 88:
+  Center: (-34.542, 3.724, 1.994) m
+  Dimensions (X×Y×Z): 0.458 × 0.080 × 3.857 m
+  Points: 210
+  Source: wall_011.ply
+
+Wall 89:
+  Center: (-30.504, 2.300, 1.573) m
+  Dimensions (X×Y×Z): 0.136 × 3.200 × 5.217 m
+  Points: 2,572
+  Source: wall_012.ply
+
+Wall 90:
+  Center: (-30.525, -5.117, 2.377) m
+  Dimensions (X×Y×Z): 0.090 × 1.098 × 3.517 m
+  Points: 288
+  Source: wall_013.ply
+
+Wall 91:
+  Center: (-30.507, -1.003, 1.501) m
+  Dimensions (X×Y×Z): 0.126 × 0.957 × 4.955 m
+  Points: 1,802
+  Source: wall_014.ply
+
+Wall 92:
+  Center: (-30.497, 7.378, 1.686) m
+  Dimensions (X×Y×Z): 0.109 × 0.593 × 4.465 m
+  Points: 255
+  Source: wall_015.ply
+
+Wall 93:
+  Center: (-10.807, 3.129, 1.481) m
+  Dimensions (X×Y×Z): 0.336 × 0.445 × 5.050 m
+  Points: 523
+  Source: wall_016.ply
+
+Wall 94:
+  Center: (-29.506, -8.812, 1.343) m
+  Dimensions (X×Y×Z): 4.713 × 0.096 × 4.783 m
+  Points: 4,410
+  Source: wall_017.ply
+
+Wall 95:
+  Center: (-14.458, 7.445, 1.804) m
+  Dimensions (X×Y×Z): 25.260 × 1.109 × 5.276 m
+  Points: 164,065
+  Source: wall_001.ply
+
+Wall 96:
+  Center: (0.362, 7.194, 1.756) m
+  Dimensions (X×Y×Z): 3.593 × 0.725 × 5.210 m
+  Points: 2,437
+  Source: wall_002.ply
+
+Wall 97:
+  Center: (-12.231, -1.160, 1.689) m
+  Dimensions (X×Y×Z): 28.553 × 1.054 × 5.475 m
+  Points: 73,441
+  Source: wall_003.ply
+
+Wall 98:
+  Center: (9.464, 6.749, 1.468) m
+  Dimensions (X×Y×Z): 0.308 × 0.571 × 5.374 m
+  Points: 644
+  Source: wall_004.ply
+
+Wall 99:
+  Center: (-11.971, -4.843, 0.598) m
+  Dimensions (X×Y×Z): 24.070 × 0.767 × 3.010 m
+  Points: 42,351
+  Source: wall_005.ply
+
+Wall 100:
+  Center: (-6.435, 3.097, 1.589) m
+  Dimensions (X×Y×Z): 0.999 × 0.820 × 5.642 m
+  Points: 10,121
+  Source: wall_006.ply
+
+Wall 101:
+  Center: (5.421, 3.176, 1.433) m
+  Dimensions (X×Y×Z): 0.324 × 0.261 × 5.394 m
+  Points: 500
+  Source: wall_007.ply
+
+Wall 102:
+  Center: (-12.416, 3.152, 1.770) m
+  Dimensions (X×Y×Z): 7.055 × 0.862 × 5.406 m
+  Points: 29,812
+  Source: wall_008.ply
+
+Wall 103:
+  Center: (1.379, 3.084, 1.435) m
+  Dimensions (X×Y×Z): 0.420 × 0.553 × 5.655 m
+  Points: 1,595
+  Source: wall_009.ply
+
+Wall 104:
+  Center: (-2.370, 3.026, 1.553) m
+  Dimensions (X×Y×Z): 0.914 × 0.779 × 5.479 m
+  Points: 3,984
+  Source: wall_010.ply
+
+Wall 105:
+  Center: (-20.309, 3.257, 1.979) m
+  Dimensions (X×Y×Z): 5.721 × 0.825 × 4.904 m
+  Points: 19,468
+  Source: wall_011.ply
+
+Wall 106:
+  Center: (-26.713, 3.588, 2.865) m
+  Dimensions (X×Y×Z): 0.912 × 0.103 × 2.232 m
+  Points: 365
+  Source: wall_012.ply
+
+Wall 107:
+  Center: (9.438, 3.497, 1.644) m
+  Dimensions (X×Y×Z): 0.309 × 0.459 × 5.880 m
+  Points: 507
+  Source: wall_013.ply
+
+Wall 108:
+  Center: (9.406, 5.090, 2.064) m
+  Dimensions (X×Y×Z): 0.168 × 4.346 × 5.089 m
+  Points: 3,273
+  Source: wall_014.ply
+
+Wall 109:
+  Center: (-0.643, 7.300, 1.870) m
+  Dimensions (X×Y×Z): 20.468 × 1.071 × 5.439 m
+  Points: 105,488
+  Source: wall_001.ply
+
+Wall 110:
+  Center: (9.614, 1.311, 1.689) m
+  Dimensions (X×Y×Z): 0.714 × 12.129 × 5.763 m
+  Points: 50,739
+  Source: wall_002.ply
+
+Wall 111:
+  Center: (-3.946, -1.092, 1.345) m
+  Dimensions (X×Y×Z): 12.712 × 0.537 × 6.403 m
+  Points: 38,953
+  Source: wall_003.ply
+
+Wall 112:
+  Center: (5.597, -1.042, 1.625) m
+  Dimensions (X×Y×Z): 1.430 × 0.266 × 5.023 m
+  Points: 5,102
+  Source: wall_004.ply
+
+Wall 113:
+  Center: (5.663, 3.001, 1.888) m
+  Dimensions (X×Y×Z): 1.113 × 0.977 × 4.834 m
+  Points: 5,365
+  Source: wall_005.ply
+
+Wall 114:
+  Center: (-3.687, 3.121, 2.126) m
+  Dimensions (X×Y×Z): 7.830 × 0.816 × 4.871 m
+  Points: 16,544
+  Source: wall_006.ply
+
+Wall 115:
+  Center: (1.696, 3.057, 2.014) m
+  Dimensions (X×Y×Z): 1.325 × 0.904 × 4.924 m
+  Points: 9,385
+  Source: wall_007.ply
+
+Wall 116:
+  Center: (9.413, 3.288, 2.063) m
+  Dimensions (X×Y×Z): 0.428 × 0.161 × 4.232 m
+  Points: 255
+  Source: wall_008.ply
+
+Wall 117:
+  Center: (-10.459, 3.493, 2.390) m
+  Dimensions (X×Y×Z): 0.866 × 0.091 × 1.625 m
+  Points: 268
+  Source: wall_009.ply
+
+Wall 118:
+  Center: (5.745, -5.237, 1.413) m
+  Dimensions (X×Y×Z): 1.304 × 0.159 × 5.751 m
+  Points: 2,927
+  Source: wall_010.ply
+
+Wall 119:
+  Center: (-2.492, -5.167, 1.422) m
+  Dimensions (X×Y×Z): 9.653 × 0.225 × 5.191 m
+  Points: 17,642
+  Source: wall_011.ply
+
+Wall 120:
+  Center: (-8.779, -5.093, 1.372) m
+  Dimensions (X×Y×Z): 2.003 × 0.135 × 1.460 m
+  Points: 956
+  Source: wall_012.ply
+
+Wall 121:
+  Center: (5.328, -9.125, 1.238) m
+  Dimensions (X×Y×Z): 0.256 × 0.365 × 5.504 m
+  Points: 298
+  Source: wall_013.ply
+
+Wall 122:
+  Center: (5.367, -1.363, 1.509) m
+  Dimensions (X×Y×Z): 0.239 × 0.928 × 4.873 m
+  Points: 1,795
+  Source: wall_014.ply
+
+Wall 123:
+  Center: (5.346, -5.580, 1.401) m
+  Dimensions (X×Y×Z): 0.244 × 0.930 × 4.857 m
+  Points: 693
+  Source: wall_015.ply
+
+Wall 124:
+  Center: (5.385, 2.960, 1.728) m
+  Dimensions (X×Y×Z): 0.246 × 1.242 × 5.113 m
+  Points: 2,642
+  Source: wall_016.ply
+
+Wall 125:
+  Center: (5.438, -0.133, -0.003) m
+  Dimensions (X×Y×Z): 0.087 × 0.567 × 0.978 m
+  Points: 434
+  Source: wall_017.ply
+
+Wall 126:
+  Center: (5.426, 7.079, 1.387) m
+  Dimensions (X×Y×Z): 0.174 × 0.585 × 3.336 m
+  Points: 253
+  Source: wall_018.ply
+
+Wall 127:
+  Center: (1.843, -5.054, 1.715) m
+  Dimensions (X×Y×Z): 0.379 × 8.468 × 4.766 m
+  Points: 7,531
+  Source: wall_019.ply
+
+Wall 128:
+  Center: (1.707, 3.876, 2.130) m
+  Dimensions (X×Y×Z): 0.842 × 6.896 × 4.813 m
+  Points: 5,221
+  Source: wall_020.ply
+
+Wall 129:
+  Center: (3.806, -9.153, 1.259) m
+  Dimensions (X×Y×Z): 5.113 × 0.382 × 6.182 m
+  Points: 13,211
+  Source: wall_021.ply
+
+Wall 130:
+  Center: (-11.902, -1.006, 3.292) m
+  Dimensions (X×Y×Z): 1.852 × 0.078 × 1.462 m
+  Points: 228
+  Source: wall_022.ply
+
+Wall 131:
+  Center: (-10.126, 2.947, 2.092) m
+  Dimensions (X×Y×Z): 0.290 × 0.086 × 4.091 m
+  Points: 263
+  Source: wall_023.ply
+
+Wall 132:
+  Center: (5.907, -3.858, 1.098) m
+  Dimensions (X×Y×Z): 0.085 × 3.059 × 2.807 m
+  Points: 664
+  Source: wall_024.ply
+
+Wall 133:
+  Center: (5.939, 1.153, 1.988) m
+  Dimensions (X×Y×Z): 0.124 × 4.485 × 4.596 m
+  Points: 4,991
+  Source: wall_025.ply
+
+Wall 134:
+  Center: (9.407, -15.158, 1.262) m
+  Dimensions (X×Y×Z): 0.365 × 0.930 × 4.414 m
+  Points: 1,868
+  Source: wall_001.ply
+
+Wall 135:
+  Center: (9.408, -19.413, 1.074) m
+  Dimensions (X×Y×Z): 0.422 × 0.437 × 4.894 m
+  Points: 1,065
+  Source: wall_002.ply
+
+Wall 136:
+  Center: (9.274, -1.867, 3.766) m
+  Dimensions (X×Y×Z): 0.569 × 17.324 × 9.493 m
+  Points: 80,005
+  Source: wall_003.ply
+
+Wall 137:
+  Center: (1.923, -4.850, 2.063) m
+  Dimensions (X×Y×Z): 0.636 × 9.875 × 5.012 m
+  Points: 48,144
+  Source: wall_004.ply
+
+Wall 138:
+  Center: (1.715, 2.911, 2.747) m
+  Dimensions (X×Y×Z): 0.854 × 1.057 × 3.193 m
+  Points: 1,983
+  Source: wall_005.ply
+
+Wall 139:
+  Center: (6.032, -14.165, 1.402) m
+  Dimensions (X×Y×Z): 0.255 × 5.005 × 3.578 m
+  Points: 5,778
+  Source: wall_006.ply
+
+Wall 140:
+  Center: (6.051, -9.632, 1.820) m
+  Dimensions (X×Y×Z): 0.524 × 1.723 × 4.596 m
+  Points: 8,047
+  Source: wall_007.ply
+
+Wall 141:
+  Center: (5.732, -1.869, 2.349) m
+  Dimensions (X×Y×Z): 1.065 × 10.400 × 5.415 m
+  Points: 31,961
+  Source: wall_008.ply
+
+Wall 142:
+  Center: (5.629, -9.259, 1.654) m
+  Dimensions (X×Y×Z): 7.735 × 0.574 × 5.172 m
+  Points: 31,905
+  Source: wall_009.ply
+
+Wall 143:
+  Center: (-1.205, -5.176, 2.026) m
+  Dimensions (X×Y×Z): 7.622 × 0.225 × 4.930 m
+  Points: 11,501
+  Source: wall_010.ply
+
+Wall 144:
+  Center: (7.162, -5.285, 2.380) m
+  Dimensions (X×Y×Z): 4.086 × 0.382 × 6.221 m
+  Points: 3,061
+  Source: wall_011.ply
+
+Wall 145:
+  Center: (-2.034, 2.976, 2.501) m
+  Dimensions (X×Y×Z): 0.086 × 0.923 × 3.189 m
+  Points: 671
+  Source: wall_012.ply
+
+Wall 146:
+  Center: (-2.045, -3.032, 1.647) m
+  Dimensions (X×Y×Z): 0.095 × 4.361 × 4.547 m
+  Points: 8,289
+  Source: wall_013.ply
+
+Wall 147:
+  Center: (7.918, -23.892, 0.450) m
+  Dimensions (X×Y×Z): 4.369 × 0.165 × 5.735 m
+  Points: 3,059
+  Source: wall_014.ply
+
+Wall 148:
+  Center: (6.674, -10.346, 1.048) m
+  Dimensions (X×Y×Z): 2.141 × 0.620 × 3.015 m
+  Points: 1,944
+  Source: wall_015.ply
+
+Wall 149:
+  Center: (5.941, -17.463, 0.983) m
+  Dimensions (X×Y×Z): 0.335 × 13.275 × 5.144 m
+  Points: 62,244
+  Source: wall_001.ply
+
+Wall 150:
+  Center: (6.012, -3.284, 4.170) m
+  Dimensions (X×Y×Z): 0.185 × 5.694 × 4.677 m
+  Points: 2,844
+  Source: wall_002.ply
+
+Wall 151:
+  Center: (5.996, -9.666, 1.171) m
+  Dimensions (X×Y×Z): 0.187 × 1.373 × 2.627 m
+  Points: 9,641
+  Source: wall_003.ply
+
+Wall 152:
+  Center: (12.671, -17.515, 1.211) m
+  Dimensions (X×Y×Z): 0.747 × 13.328 × 4.742 m
+  Points: 80,436
+  Source: wall_004.ply
+
+Wall 153:
+  Center: (12.483, -27.829, 2.616) m
+  Dimensions (X×Y×Z): 0.077 × 2.861 × 2.299 m
+  Points: 518
+  Source: wall_005.ply
+
+Wall 154:
+  Center: (9.338, -23.721, 0.807) m
+  Dimensions (X×Y×Z): 0.685 × 0.685 × 5.186 m
+  Points: 1,165
+  Source: wall_006.ply
+
+Wall 155:
+  Center: (9.416, -15.198, 1.526) m
+  Dimensions (X×Y×Z): 0.515 × 1.106 × 3.973 m
+  Points: 4,798
+  Source: wall_007.ply
+
+Wall 156:
+  Center: (9.316, -11.019, 1.793) m
+  Dimensions (X×Y×Z): 0.287 × 0.373 × 3.418 m
+  Points: 938
+  Source: wall_008.ply
+
+Wall 157:
+  Center: (9.236, -4.477, 3.213) m
+  Dimensions (X×Y×Z): 0.385 × 11.744 × 6.959 m
+  Points: 33,125
+  Source: wall_009.ply
+
+Wall 158:
+  Center: (10.273, -23.857, 1.308) m
+  Dimensions (X×Y×Z): 0.198 × 0.915 × 4.155 m
+  Points: 1,210
+  Source: wall_010.ply
+
+Wall 159:
+  Center: (9.652, -19.635, 1.170) m
+  Dimensions (X×Y×Z): 0.763 × 0.991 × 4.663 m
+  Points: 7,040
+  Source: wall_011.ply
+
+Wall 160:
+  Center: (9.353, -11.007, 1.526) m
+  Dimensions (X×Y×Z): 6.982 × 0.134 × 4.132 m
+  Points: 11,284
+  Source: wall_012.ply
+
+Wall 161:
+  Center: (9.115, -23.885, 0.759) m
+  Dimensions (X×Y×Z): 7.216 × 0.220 × 5.422 m
+  Points: 9,026
+  Source: wall_013.ply
+
+Wall 162:
+  Center: (6.005, -5.635, 1.773) m
+  Dimensions (X×Y×Z): 0.252 × 1.865 × 4.045 m
+  Points: 1,837
+  Source: wall_001.ply
+
+Wall 163:
+  Center: (5.990, -9.677, 1.827) m
+  Dimensions (X×Y×Z): 0.231 × 1.555 × 4.342 m
+  Points: 7,548
+  Source: wall_002.ply
+
+Wall 164:
+  Center: (5.965, -17.404, 1.356) m
+  Dimensions (X×Y×Z): 0.259 × 13.191 × 4.425 m
+  Points: 72,209
+  Source: wall_003.ply
+
+Wall 165:
+  Center: (12.568, -17.424, 1.258) m
+  Dimensions (X×Y×Z): 0.338 × 13.322 × 4.678 m
+  Points: 54,900
+  Source: wall_004.ply
+
+Wall 166:
+  Center: (9.258, -5.054, 2.486) m
+  Dimensions (X×Y×Z): 0.352 × 10.918 × 5.747 m
+  Points: 25,852
+  Source: wall_005.ply
+
+Wall 167:
+  Center: (9.267, -15.174, 1.472) m
+  Dimensions (X×Y×Z): 0.220 × 1.078 × 4.199 m
+  Points: 5,084
+  Source: wall_006.ply
+
+Wall 168:
+  Center: (9.081, -23.895, 1.540) m
+  Dimensions (X×Y×Z): 0.546 × 0.472 × 3.972 m
+  Points: 1,564
+  Source: wall_007.ply
+
+Wall 169:
+  Center: (9.210, -11.007, 1.049) m
+  Dimensions (X×Y×Z): 0.350 × 0.352 × 4.806 m
+  Points: 1,382
+  Source: wall_008.ply
+
+Wall 170:
+  Center: (9.222, -19.662, 1.567) m
+  Dimensions (X×Y×Z): 0.291 × 1.186 × 4.042 m
+  Points: 3,795
+  Source: wall_009.ply
+
+Wall 171:
+  Center: (12.480, -25.970, 1.530) m
+  Dimensions (X×Y×Z): 0.183 × 2.486 × 3.953 m
+  Points: 1,760
+  Source: wall_010.ply
+
+Wall 172:
+  Center: (5.627, -9.152, 1.891) m
+  Dimensions (X×Y×Z): 7.574 × 0.246 × 4.507 m
+  Points: 15,278
+  Source: wall_011.ply
+
+Wall 173:
+  Center: (1.956, -7.245, 1.652) m
+  Dimensions (X×Y×Z): 0.088 × 4.522 × 4.883 m
+  Points: 11,829
+  Source: wall_012.ply
+
+Wall 174:
+  Center: (1.919, -1.433, 1.965) m
+  Dimensions (X×Y×Z): 0.062 × 0.904 × 4.425 m
+  Points: 223
+  Source: wall_013.ply
+
+Wall 175:
+  Center: (9.074, -10.995, 1.167) m
+  Dimensions (X×Y×Z): 7.320 × 0.381 × 4.951 m
+  Points: 15,080
+  Source: wall_014.ply
+
+Wall 176:
+  Center: (9.213, -23.921, 1.464) m
+  Dimensions (X×Y×Z): 6.630 × 0.210 × 3.898 m
+  Points: 6,827
+  Source: wall_015.ply
+
+Wall 177:
+  Center: (9.348, -1.072, 3.695) m
+  Dimensions (X×Y×Z): 0.366 × 16.777 × 9.600 m
+  Points: 41,144
+  Source: wall_001.ply
+
+Wall 178:
+  Center: (1.610, 2.916, 1.780) m
+  Dimensions (X×Y×Z): 0.994 × 1.353 × 5.347 m
+  Points: 2,820
+  Source: wall_002.ply
+
+Wall 179:
+  Center: (1.825, -4.753, 1.966) m
+  Dimensions (X×Y×Z): 0.891 × 9.133 × 4.784 m
+  Points: 32,179
+  Source: wall_003.ply
+
+Wall 180:
+  Center: (1.852, 7.090, 1.830) m
+  Dimensions (X×Y×Z): 0.579 × 0.906 × 5.511 m
+  Points: 1,043
+  Source: wall_004.ply
+
+Wall 181:
+  Center: (1.209, 7.262, 1.553) m
+  Dimensions (X×Y×Z): 11.817 × 0.371 × 5.897 m
+  Points: 12,984
+  Source: wall_005.ply
+
+Wall 182:
+  Center: (5.521, -9.093, 1.711) m
+  Dimensions (X×Y×Z): 7.827 × 0.243 × 5.111 m
+  Points: 12,355
+  Source: wall_006.ply
+
+Wall 183:
+  Center: (-1.367, -1.086, 1.915) m
+  Dimensions (X×Y×Z): 10.875 × 0.726 × 5.183 m
+  Points: 12,444
+  Source: wall_007.ply
+
+Wall 184:
+  Center: (5.610, -1.397, 2.085) m
+  Dimensions (X×Y×Z): 1.651 × 0.916 × 4.884 m
+  Points: 3,679
+  Source: wall_008.ply
+
+Wall 185:
+  Center: (5.669, -1.621, 1.944) m
+  Dimensions (X×Y×Z): 0.915 × 9.071 × 5.344 m
+  Points: 12,040
+  Source: wall_009.ply
+
+Wall 186:
+  Center: (5.987, 7.046, 1.211) m
+  Dimensions (X×Y×Z): 0.231 × 0.527 × 4.094 m
+  Points: 201
+  Source: wall_010.ply
+
+Wall 187:
+  Center: (5.794, -9.135, 2.265) m
+  Dimensions (X×Y×Z): 0.534 × 0.617 × 3.738 m
+  Points: 461
+  Source: wall_011.ply
+
+Wall 188:
+  Center: (-2.030, 2.963, 1.465) m
+  Dimensions (X×Y×Z): 0.230 × 1.511 × 3.767 m
+  Points: 1,217
+  Source: wall_012.ply
+
+Wall 189:
+  Center: (-1.992, -3.035, 1.543) m
+  Dimensions (X×Y×Z): 0.255 × 4.709 × 4.588 m
+  Points: 4,177
+  Source: wall_013.ply
+
+Wall 190:
+  Center: (-2.030, 7.132, 1.994) m
+  Dimensions (X×Y×Z): 0.292 × 0.646 × 4.925 m
+  Points: 350
+  Source: wall_014.ply
+
+Wall 191:
+  Center: (5.203, 3.318, 1.065) m
+  Dimensions (X×Y×Z): 0.165 × 1.384 × 2.398 m
+  Points: 466
+  Source: wall_015.ply
+
+Wall 192:
+  Center: (9.394, 1.074, 2.517) m
+  Dimensions (X×Y×Z): 0.183 × 5.774 × 6.623 m
+  Points: 38,952
+  Source: wall_001.ply
+
+Wall 193:
+  Center: (9.354, -4.548, 2.875) m
+  Dimensions (X×Y×Z): 0.172 × 2.819 × 7.549 m
+  Points: 14,447
+  Source: wall_002.ply
+
+Wall 194:
+  Center: (9.446, 6.420, 1.698) m
+  Dimensions (X×Y×Z): 0.138 × 1.696 × 5.441 m
+  Points: 10,143
+  Source: wall_003.ply
+
+Wall 195:
+  Center: (7.463, 7.184, 1.600) m
+  Dimensions (X×Y×Z): 4.086 × 0.630 × 5.270 m
+  Points: 15,200
+  Source: wall_004.ply
+
+Wall 196:
+  Center: (-0.866, 7.273, 1.749) m
+  Dimensions (X×Y×Z): 7.699 × 0.698 × 5.005 m
+  Points: 53,179
+  Source: wall_005.ply
+
+Wall 197:
+  Center: (-9.184, 7.321, 3.239) m
+  Dimensions (X×Y×Z): 2.111 × 0.125 × 1.818 m
+  Points: 2,083
+  Source: wall_006.ply
+
+Wall 198:
+  Center: (-4.978, -1.045, 2.874) m
+  Dimensions (X×Y×Z): 3.732 × 0.322 × 2.559 m
+  Points: 11,522
+  Source: wall_007.ply
+
+Wall 199:
+  Center: (-0.330, -1.055, 2.064) m
+  Dimensions (X×Y×Z): 4.911 × 0.303 × 4.732 m
+  Points: 21,661
+  Source: wall_008.ply
+
+Wall 200:
+  Center: (5.704, -1.069, 1.735) m
+  Dimensions (X×Y×Z): 0.813 × 0.242 × 3.926 m
+  Points: 4,160
+  Source: wall_009.ply
+
+Wall 201:
+  Center: (5.398, 2.980, 1.801) m
+  Dimensions (X×Y×Z): 0.118 × 0.967 × 4.681 m
+  Points: 7,046
+  Source: wall_010.ply
+
+Wall 202:
+  Center: (5.376, -1.382, 1.476) m
+  Dimensions (X×Y×Z): 0.111 × 0.986 × 4.146 m
+  Points: 6,019
+  Source: wall_011.ply
+
+Wall 203:
+  Center: (-2.332, 2.673, 2.302) m
+  Dimensions (X×Y×Z): 0.860 × 0.080 × 3.663 m
+  Points: 4,807
+  Source: wall_012.ply
+
+Wall 204:
+  Center: (5.753, 2.625, 1.930) m
+  Dimensions (X×Y×Z): 0.842 × 0.079 × 4.173 m
+  Points: 3,913
+  Source: wall_013.ply
+
+Wall 205:
+  Center: (-6.395, 2.696, 2.868) m
+  Dimensions (X×Y×Z): 0.825 × 0.071 × 2.404 m
+  Points: 1,903
+  Source: wall_014.ply
+
+Wall 206:
+  Center: (-10.484, 2.722, 3.367) m
+  Dimensions (X×Y×Z): 0.665 × 0.054 × 1.200 m
+  Points: 273
+  Source: wall_015.ply
+
+Wall 207:
+  Center: (1.716, 2.654, 1.361) m
+  Dimensions (X×Y×Z): 0.921 × 0.076 × 3.198 m
+  Points: 4,868
+  Source: wall_016.ply
+
+Wall 208:
+  Center: (8.887, -5.278, 5.307) m
+  Dimensions (X×Y×Z): 1.007 × 0.077 × 2.360 m
+  Points: 1,893
+  Source: wall_017.ply
+
+Wall 209:
+  Center: (-1.105, -5.168, 1.750) m
+  Dimensions (X×Y×Z): 6.311 × 0.096 × 1.248 m
+  Points: 7,591
+  Source: wall_018.ply
+
+Wall 210:
+  Center: (1.355, 2.967, 1.769) m
+  Dimensions (X×Y×Z): 0.065 × 0.884 × 3.929 m
+  Points: 5,044
+  Source: wall_019.ply
+
+Wall 211:
+  Center: (1.394, 7.105, 1.997) m
+  Dimensions (X×Y×Z): 0.065 × 0.402 × 4.302 m
+  Points: 891
+  Source: wall_020.ply
+
+Wall 212:
+  Center: (1.313, -1.351, 0.947) m
+  Dimensions (X×Y×Z): 0.067 × 0.938 × 2.427 m
+  Points: 1,154
+  Source: wall_021.ply
+
+Wall 213:
+  Center: (-2.004, 7.116, 2.067) m
+  Dimensions (X×Y×Z): 0.076 × 0.448 × 4.055 m
+  Points: 997
+  Source: wall_022.ply
+
+Wall 214:
+  Center: (-2.032, 2.980, 2.256) m
+  Dimensions (X×Y×Z): 0.078 × 0.877 × 3.757 m
+  Points: 4,618
+  Source: wall_023.ply
+
+Wall 215:
+  Center: (-2.065, -1.600, 2.428) m
+  Dimensions (X×Y×Z): 0.074 × 2.522 × 3.772 m
+  Points: 2,897
+  Source: wall_024.ply
+
+Wall 216:
+  Center: (-9.166, -1.106, 3.426) m
+  Dimensions (X×Y×Z): 2.182 × 0.060 × 1.276 m
+  Points: 1,122
+  Source: wall_025.ply
+
+Wall 217:
+  Center: (-6.100, -1.197, 2.800) m
+  Dimensions (X×Y×Z): 0.064 × 0.774 × 2.489 m
+  Points: 1,030
+  Source: wall_026.ply
+
+Wall 218:
+  Center: (-6.082, 3.042, 2.790) m
+  Dimensions (X×Y×Z): 0.063 × 0.917 × 2.563 m
+  Points: 3,643
+  Source: wall_027.ply
+
+Wall 219:
+  Center: (5.982, -2.764, 1.579) m
+  Dimensions (X×Y×Z): 0.076 × 1.830 × 1.487 m
+  Points: 1,326
+  Source: wall_028.ply
+
+Wall 220:
+  Center: (5.998, 0.185, 2.486) m
+  Dimensions (X×Y×Z): 0.113 × 2.550 × 2.565 m
+  Points: 1,528
+  Source: wall_029.ply
+
+Wall 221:
+  Center: (6.076, 2.566, 2.504) m
+  Dimensions (X×Y×Z): 0.133 × 0.235 × 3.149 m
+  Points: 287
+  Source: wall_030.ply
+

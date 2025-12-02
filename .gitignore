@@ -9,11 +9,7 @@ venv/
 ENV/
 *.egg-info/
 
-# Output directories
-output_*/
-docker_output/
-Tested_output/
-visualizations/
+
 
 # Data directories (don't commit large point cloud data)
 raw_pointCloud/
